@@ -21,7 +21,7 @@ def download_and_load_model():
 model = download_and_load_model()
 
 st.title("🧠 Brain Tumor Detection App")
-st.markdown("<h2>Upload an MRI scan to check for brain tumor using a deep learning model by @ Mohsin💻</h2>", unsafe_allow_html=True)
+st.markdown("<h2>Upload an MRI scan to check for brain tumor using a deep learning model by @ Mr Shelby💻</h2>", unsafe_allow_html=True)
 
 st.markdown("<h3>Upload an image (JPG/PNG) 🖼️</h3>", unsafe_allow_html=True)
 uploaded_file = st.file_uploader("", type=["jpg", "jpeg", "png"])
